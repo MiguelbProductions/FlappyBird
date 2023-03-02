@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/sprites/base.png" type="Texture" id=1]
+[ext_resource path="res://Assets/sprites/background-day.png" type="Texture" id=2]
+
+[node name="Parallax_BGandFloor" type="CanvasLayer"]
+
+[node name="BG_Parallax" type="ParallaxBackground" parent="."]
+
+[node name="BG_Layer" type="ParallaxLayer" parent="BG_Parallax"]
+z_index = 1
+motion_mirroring = Vector2( 288, 0 )
+
+[node name="BG_Sprite" type="Sprite" parent="BG_Parallax/BG_Layer"]
+position = Vector2( 144, 256 )
+texture = ExtResource( 2 )
+
+[node name="Floor_Parallax" type="ParallaxBackground" parent="."]
+layer = 1
+
+[node name="Floor_Layer" type="ParallaxLayer" parent="Floor_Parallax"]
+z_index = 1
+motion_mirroring = Vector2( 288, 0 )
+
+[node name="Floor_Sprite" type="Sprite" parent="Floor_Parallax/Floor_Layer"]
+position = Vector2( 144, 456 )
+scale = Vector2( 0.857143, 1 )
+texture = ExtResource( 1 )
