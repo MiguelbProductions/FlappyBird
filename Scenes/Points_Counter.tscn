@@ -1,8 +1,6 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Scripts/Points_Counter.gd" type="Script" id=1]
-
-[sub_resource type="CapsuleShape2D" id=3]
 
 [sub_resource type="DynamicFontData" id=1]
 font_path = "res://Assets/font/04B_19__.TTF"
@@ -14,20 +12,13 @@ outline_color = Color( 0, 0, 0, 1 )
 extra_spacing_char = 4
 font_data = SubResource( 1 )
 
-[node name="Points_Counter" type="KinematicBody2D"]
+[node name="Points_Counter" type="Control"]
 script = ExtResource( 1 )
-velocity = 100
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
-shape = SubResource( 3 )
-disabled = true
 
 [node name="txt_Points" type="Label" parent="."]
-margin_left = 94.0
-margin_top = 28.0
-margin_right = 181.0
-margin_bottom = 81.0
+margin_top = 20.0
+margin_right = 288.0
+margin_bottom = 73.0
 grow_horizontal = 2
 grow_vertical = 2
 custom_fonts/font = SubResource( 2 )

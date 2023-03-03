@@ -16,7 +16,6 @@ func get_input():
 		
 		Jump_Sound.play()
 	
-	bird_vector.x = velocity
 	bird_vector.y += gravity
 
 func apply_animation():
@@ -27,24 +26,13 @@ func apply_animation():
 		
 	if (Idle_Animation.current_animation == "Idle"):
 		Idle_Animation.play("RESET")
-	
-
-func verify_overtaking():
-	if (int(self.position.x) in GameManager.list_of_pipeoverpasspos):
-		GameManager.list_of_pipeoverpasspos.erase(int(self.position.x))
-		
-		GameManager.points += 1
 
 func _physics_process(delta):
 	if (GameManager.game_started):
 		get_input()
 		apply_animation()
-		verify_overtaking()
 		
 		move_and_slide(bird_vector)
 	else:
-		if (Input.is_action_just_pressed("Jump") and not GameManager.game_started):
-			GameManager.game_started = true
-		
 		if (Idle_Animation.current_animation != "Idle"):
 			Idle_Animation.play("Idle")

@@ -6,6 +6,7 @@
 extents = Vector2( 25, 159.5 )
 
 [node name="Pipe" type="StaticBody2D"]
+z_index = -1
 collision_layer = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

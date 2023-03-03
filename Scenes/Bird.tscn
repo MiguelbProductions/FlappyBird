@@ -64,7 +64,6 @@ disabled = true
 [node name="Bird_Animation" type="AnimatedSprite" parent="."]
 frames = SubResource( 1 )
 animation = "Flying"
-frame = 2
 playing = true
 
 [node name="Camera" type="Camera2D" parent="."]
