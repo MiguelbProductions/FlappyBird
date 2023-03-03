@@ -18,6 +18,13 @@ func get_input():
 	
 	bird_vector.y += gravity
 
+func _input(event):
+	if event is InputEventScreenTouch:
+		if event.is_pressed():
+			bird_vector.y = jump_force
+			
+			Jump_Sound.play()
+
 func apply_animation():
 	if (bird_vector.y > 0):
 		rotation_degrees = 30

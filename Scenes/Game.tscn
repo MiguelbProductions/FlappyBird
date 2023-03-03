@@ -27,9 +27,6 @@ disabled = true
 
 [node name="Bird" parent="Player" instance=ExtResource( 2 )]
 
-[node name="Bird_Animation" parent="Player/Bird" index="1"]
-frame = 2
-
 [node name="PipeTime_Generation" type="Timer" parent="."]
 one_shot = true
 

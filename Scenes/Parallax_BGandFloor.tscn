@@ -9,10 +9,11 @@
 
 [node name="BG_Layer" type="ParallaxLayer" parent="BG_Parallax"]
 z_index = 1
-motion_mirroring = Vector2( 288, 0 )
+motion_mirroring = Vector2( 360, 0 )
 
 [node name="BG_Sprite" type="Sprite" parent="BG_Parallax/BG_Layer"]
-position = Vector2( 144, 256 )
+position = Vector2( 180, 320 )
+scale = Vector2( 1.25, 1.25 )
 texture = ExtResource( 2 )
 
 [node name="Floor_Parallax" type="ParallaxBackground" parent="."]
@@ -20,9 +21,9 @@ layer = 1
 
 [node name="Floor_Layer" type="ParallaxLayer" parent="Floor_Parallax"]
 z_index = 1
-motion_mirroring = Vector2( 288, 0 )
+motion_mirroring = Vector2( 360, 0 )
 
 [node name="Floor_Sprite" type="Sprite" parent="Floor_Parallax/Floor_Layer"]
-position = Vector2( 144, 456 )
-scale = Vector2( 0.857143, 1 )
+position = Vector2( 180, 584 )
+scale = Vector2( 1.07143, 1 )
 texture = ExtResource( 1 )
