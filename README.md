@@ -1,2 +1,2 @@
-# Simple Flappy Bird
+# The Penguin Dash Game
  
