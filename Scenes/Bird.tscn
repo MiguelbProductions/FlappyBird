@@ -1,10 +1,10 @@
 [gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://Assets/sprites/bluebird-downflap.png" type="Texture" id=1]
-[ext_resource path="res://Assets/sprites/bluebird-midflap.png" type="Texture" id=2]
-[ext_resource path="res://Assets/sprites/bluebird-upflap.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Sprites/Birds/bluebird-downflap.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Sprites/Birds/bluebird-midflap.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Sprites/Birds/bluebird-upflap.png" type="Texture" id=3]
 [ext_resource path="res://Scripts/Bird.gd" type="Script" id=4]
-[ext_resource path="res://Assets/audio/wing.wav" type="AudioStream" id=5]
+[ext_resource path="res://Assets/Sounds/wing.wav" type="AudioStream" id=5]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {

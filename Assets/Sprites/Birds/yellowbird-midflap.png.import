@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pipe-red.png-cedcfbee5b02df29aeedfdb843ad11c8.stex"
+path="res://.import/yellowbird-midflap.png-edd2050c126f2b50ebd0e6269bdf5e3e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/pipe-red.png"
-dest_files=[ "res://.import/pipe-red.png-cedcfbee5b02df29aeedfdb843ad11c8.stex" ]
+source_file="res://Assets/Sprites/Birds/yellowbird-midflap.png"
+dest_files=[ "res://.import/yellowbird-midflap.png-edd2050c126f2b50ebd0e6269bdf5e3e.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

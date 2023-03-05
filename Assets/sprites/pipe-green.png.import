@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pipe-green.png-b788af178be734e3d15a3f23e3d539e7.stex"
+path="res://.import/pipe-green.png-de2ce9d62dd881cff248a7cfaa79d0d2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/sprites/pipe-green.png"
-dest_files=[ "res://.import/pipe-green.png-b788af178be734e3d15a3f23e3d539e7.stex" ]
+source_file="res://Assets/Sprites/pipe-green.png"
+dest_files=[ "res://.import/pipe-green.png-de2ce9d62dd881cff248a7cfaa79d0d2.stex" ]
 
 [params]
 
