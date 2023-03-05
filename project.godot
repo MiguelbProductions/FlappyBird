@@ -53,6 +53,7 @@ pointing/emulate_touch_from_mouse=true
 2d_physics/layer_1="Bird"
 2d_physics/layer_2="Pipe"
 2d_physics/layer_3="Background"
+2d_physics/layer_4="PowerUps"
 
 [physics]
 
